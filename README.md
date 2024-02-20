@@ -84,6 +84,9 @@ Với bảng Dimension của Date, ngoài DateID là khóa chính liên kết v�
 
 Với bảng Dimension của Employees, nhóm lấy các thuộc tính mô tả thông tin cơ bản và thông tin liên hệ của từ các Satellite liên kết với Hub của Employees ở mô hình Data Vault. Nhóm cũng thực hiện tương tự với các bảng Dimension của Products và Customers bằng việc tổng hợp thuộc tính từ các Satellite liên kết với Hub tương ứng, sau đó lược bỏ một số thuộc tính không mang ý nghĩa hiện tại với phòng Kinh doanh như Discontinued (dùng xác định sản phẩm đã dừng sản xuất).
 
+## 4. Tạo mô hình dữ liệu cho Data Mart bằng truy vấn SQL 
+(Chi tiết tại file SQL Script)
+
 
 
 
